@@ -296,9 +296,9 @@ if __name__ == "__main__":
     # print(ab.iterator(3))
 
 
-    # ab.serialize('a_b.json')
-    # print(ab.deserialize('a_b.json'))
+    ab.serialize('a_b.json')
+    print(ab.deserialize('a_b.json'))
 
-    # print(AddressBook.deserialize('a_b.json')) # Програма не втрачає дані після виходу з програми та відновлює їх з файлу.
+    print(AddressBook.deserialize('a_b.json')) # Програма не втрачає дані після виходу з програми та відновлює їх з файлу.
 
     ab.search_output() # Програма виводить список користувачів, які мають в імені або номері телефону є збіги із введеним рядком.
